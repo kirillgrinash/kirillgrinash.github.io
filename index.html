@@ -1,130 +1,194 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html>
-	<head>
-		<title>Kirill Grinash Personal Website</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Kirill Grinash Personal Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Header -->
+    <section id="header">
+      <header>
+        <span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+        <h1 id="logo"><a href="#">Kirill Grinash</a></h1>
+        <p>
+          "Successful people do what unsuccessful people are not willing to do.
+          <br />
+          Don't wish it were easier; wish you were better."
+          <br />
+          -Jim Rohn
+        </p>
+      </header>
+      <nav id="nav">
+        <ul>
+          <li><a href="#one" class="active">About Me</a></li>
+          <li><a href="#two">Skills</a></li>
+          <li><a href="#three">A Few Accomplishments</a></li>
+          <li><a href="#four">Contact Me</a></li>
+        </ul>
+      </nav>
+      <footer>
+        <ul class="icons">
+          <li>
+            <a href="https://www.linkedin.com/in/kirill-grinash/" class="icon brands fa-linkedin">
+              <span class="label">Linkedin</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/kirillgrinash" class="icon brands fa-github">
+              <span class="label">Github</span>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </section>
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Kirill Grinash</a></h1>
-					<p>"Successful people do what unsuccessful people are not willing to do.<br />
-					Don't wish it were easier; wish you were better."<br />
-					-Jim Rohn</p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">About Me</a></li>
-						<li><a href="#two">Skills</a></li>
-						<li><a href="#three">A Few Accomplishments</a></li>
-						<li><a href="#four">Contact Me</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/kirill-grinash/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-						<li><a href="https://github.com/kirillgrinash" class="icon brands fa-github"><span class="label">Github</span></a></li>
-					</ul>
-				</footer>
-			</section>
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <!-- One -->
+        <section id="one">
+          <div class="image main" data-position="center">
+            <img src="images/banner.jpg" alt="" />
+          </div>
+          <div class="container">
+            <header class="major">
+              <h2>About Me</h2>
+              <p>
+                Hello, I’m Kirill. I am a passionate software engineer with a love for creating innovative solutions
+                that make a positive impact. With expertise in React and Rails, I thrive on the challenges and rewards
+                of developing robust applications. Beyond coding, I am an avid jiujitsu practitioner, dedicated father,
+                and adventurous spirit. Jiujitsu has taught me discipline and perseverance, while fatherhood has
+                strengthened my ability to multitask and prioritize. I embrace opportunities to explore the world,
+                seeking thrilling experiences and personal growth. Let's connect and discuss how we can make a
+                meaningful impact together.
+              </p>
+            </header>
+            <!-- <p>
+              I am a results-driven software engineer with expertise in building scalable web applications using React
+              and Ruby on Rails. With a strong understanding of front-end and back-end technologies, I am proficient in
+              utilizing Docker for containerization and Jest for automated testing. I thrive in Agile environments and
+              excel at collaborating with cross-functional teams to deliver high-quality software solutions.
+            </p> -->
+          </div>
+        </section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+        <!-- Two -->
+        <section id="two">
+          <div class="container">
+            <h3>Skills</h3>
+            <p>
+              Technical: React, React-Native, Ruby, Rails, Vue.js, Redux.js, Docker, JavaScript, Typescript, HTML, CSS,
+              PostgreSQL, Git, GitHub, APIs, Pair-Programming, Jest, Testing, Object-Oriented Programming, Bootstrap
+            </p>
+            <ul class="feature-icons">
+              <li class="icon solid fa-code-branch">React</li>
+              <li class="icon solid fa-gem">Ruby on Rails</li>
+              <li class="icon solid fa-laptop-code">JavaScript & TypeScript</li>
+              <li class="icon solid fa-file-code">Redux.js</li>
+              <li class="icon solid fa-terminal">Docker</li>
+              <li class="icon solid fa-code">HTML & CSS</li>
+            </ul>
+          </div>
+        </section>
 
-				<!-- Main -->
-					<div id="main">
+        <!-- Three -->
+        <section id="three">
+          <div class="container">
+            <h3>A Few Accomplishments</h3>
+            <div class="features">
+              <article>
+                <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+                <div class="inner">
+                  <h4>My Capstone Project (Serenity)</h4>
+                  <p>
+                    Personally built a web app that detects a user by facial recognition and tracks emotional state
+                    during computer usage for parental review. The app mostly uses Rails for the backend, Vue.js for the
+                    frontend, and pulls data info from APIs.
+                    <a href="https://youtu.be/HM4Np7hZLeE?t=3423">Brief sample video of the app working!</a>
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+                <div class="inner">
+                  <h4>Completed Actualize Bootcamp</h4>
+                  <p>
+                    This is one of my proudest accomplishments. I’m so glad I was able to take this BootCamp at
+                    Actualize, I learned so much and grew exponentially as a developer. I learned more than just code; I
+                    learned how to work in a team, how to work with deadlines, how to change my mindset, how to seek out
+                    answers and troubleshoot effectively. I learned a great deal in a short amount of time and now I
+                    have the confidence to take on my next challenge!
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+                <div class="inner">
+                  <h4>CDK Global Forms Builder</h4>
+                  <p>
+                    At CDK I helped build and map forms for dealerships to remove the need to hand write contracts
+                    manually in the F&I offices, when customers buy or sell vehicles. CDK uses its own proprietary
+                    coding language to connect forms to a database to ensure consistency and provide “dry code” to save
+                    time for the managers. Troubleshooting is a core principle in this role since every dealership needs
+                    personal customizations and the data is entered differently by each client. CDK has been a great
+                    learning experience and I was able to work with a very helpful and talented group. Thanks to this
+                    role my code is cleaner and my conditional statements are stronger.
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+                <div class="inner">
+                  <h4>JPMorgan Chase & Co. Senior Fraud Analyst</h4>
+                  <p>
+                    My role at JPMorgan Chase went through many phases as I transitioned from being customer facing to
+                    backend reporting. To begin I was responsible for assisting customers with handling fraud on their
+                    credit cards while maintaining security protocols to protect the bank. Working with high net worth
+                    clients it was important to provide world class customer service and one call resolution on every
+                    interaction. I then moved to a position where I was now recovering funds for the bank related to
+                    fraudulent activity by investigating customer claims and reaching out to merchants for verification.
+                    This experience allowed me to advance in my career to a role where I was able to showcase my
+                    expertise by reviewing existing procedures for gaps in policy and ensuring that the bank was
+                    following regulation. Chase has been a remarkable experience and I was fortunate enough to be part
+                    of a landmark corporation.
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+                <div class="inner">
+                  <h4>D&W FinePack Enterprise IT Helpdesk Technician</h4>
+                  <p>
+                    This was my first IT role and it taught me a great amount, from troubleshooting to overcoming
+                    challenges. D&W FinePack was a great place to work and learn, with many bonding memories and
+                    learning experiences. In our small team setting, we would work on anything from setting up profiles,
+                    to replacing parts on computers. This was my first step into the world of technology.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
 
-						<!-- One -->
-							<section id="one">
-								<div class="image main" data-position="center">
-									<img src="images/banner.jpg" alt="" />
-								</div>
-								<div class="container">
-									<header class="major">
-										<h2>About Me</h2>
-										<p>Hello, I’m Kirill Grinash. I’m a software engineer, football fan, dog lover, avid video gamer and so far on the greatest journey yet through fatherhood.</p>
-									</header>
-									<p>Adaptive software engineer with extensive experience in customer relations, auditing, and troubleshooting. Seeking to use my transferable skills, focused drive, and skilled problem solving to contribute and grow with an organization. I thrive on learning, developing, and sharing my knowledge and skills with others.</p>
-								</div>
-							</section>
+        <!-- Four -->
+        <section id="four">
+          <div class="container">
+            <h3>Contact Me</h3>
+            <p>
+              Feel free to contact me if you have any questions, I would love to hear from you. You can either reach me
+              on
+              <a href="https://www.linkedin.com/in/kirill-grinash/">Linkedin</a>
+              or send me an email. I will respond as promotly as I can, I look forward to speaking with you!
+            </p>
+          </div>
+        </section>
 
-						<!-- Two -->
-							<section id="two">
-								<div class="container">
-									<h3>Skills</h3>
-									<p>Technical:  Ruby, Rails, Vue.js, JavaScript, HTML, CSS, PostgreSQL, Git, GitHub, APIs, Pair-Programming, Testing, Object-Oriented Programming, Bootstrap</p>
-									<ul class="feature-icons">
-										<li class="icon solid fa-laptop-code">JavaScript</li>
-										<li class="icon solid fa-gem">Ruby</li>
-										<li class="icon solid fa-terminal">Ruby on Rails</li>
-										<li class="icon solid fa-code">HTML</li>
-										<li class="icon solid fa-file-code">CSS</li>
-										<li class="icon solid fa-code-branch">Vue.js</li>
-									</ul>
-								</div>
-							</section>
-
-						<!-- Three -->
-							<section id="three">
-								<div class="container">
-									<h3>A Few Accomplishments</h3>
-									<div class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>My Capstone Project (Serenity)</h4>
-												<p>Personally built a web app that detects a user by facial recognition and tracks emotional state during computer usage for parental review. The app mostly uses Rails for the backend, Vue.js for the frontend, and pulls data info from APIs. <a href="https://youtu.be/HM4Np7hZLeE?t=3423">Brief sample video of the app working!</a></p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Completed Actualize Bootcamp</h4>
-												<p>This is one of my proudest accomplishments. I’m so glad I was able to take this BootCamp at Actualize, I learned so much and grew exponentially as a developer. I learned more than just code; I learned how to work in a team, how to work with deadlines, how to change my mindset, how to seek out answers and troubleshoot effectively. I learned a great deal in a short amount of time and now I have the confidence to take on my next challenge!</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>CDK Global Forms Builder</h4>
-												<p>At CDK I helped build and map forms for dealerships to remove the need to hand write contracts manually in the F&I offices, when customers buy or sell vehicles. CDK uses its own proprietary coding language to connect forms to a database to ensure consistency and provide “dry code” to save time for the managers. Troubleshooting is a core principle in this role since every dealership needs personal customizations and the data is entered differently by each client. CDK has been a great learning experience and I was able to work with a very helpful and talented group. Thanks to this role my code is cleaner and my conditional statements are stronger.
-												</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>JPMorgan Chase & Co. Senior Fraud Analyst</h4>
-												<p>My role at JPMorgan Chase went through many phases as I transitioned from being customer facing to backend reporting. To begin I was responsible for assisting customers with handling fraud on their credit cards while maintaining security protocols to protect the bank. Working with high net worth clients it was important to provide world class customer service and one call resolution on every interaction. I then moved to a position where I was now recovering funds for the bank related to fraudulent activity by investigating customer claims and reaching out to merchants for verification. This experience allowed me to advance in my career to a role where I was able to showcase my expertise by reviewing existing procedures for gaps in policy and ensuring that the bank was following regulation. Chase has been a remarkable experience and I was fortunate enough to be part of a landmark corporation.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>D&W FinePack Enterprise IT Helpdesk Technician</h4>
-												<p>This was my first IT role and I learned a great deal. I learned everything from troubleshooting to overcoming challenges. D&W FinePack was a great place to work and learn complete with bonding memories and learning experiences. In our small team setting we worked on everything from setting up profiles to replacing computer parts. D&W FinePack was my first step into the realm of technology.</p>
-											</div>
-										</article>
-									</div>
-								</div>
-							</section>
-
-						<!-- Four -->
-							<section id="four">
-								<div class="container">
-									<h3>Contact Me</h3>
-									<p>Feel free to contact me if you have any questions, I would love to hear from you. You can reach me via email or <a href="https://www.linkedin.com/in/kirill-grinash/">Linkedin</a>. I will respond as promptly as possible. I look forward to speaking with you!</p>
-								</div>
-							</section>
-
-						<!-- Five -->
-						<!--
+        <!-- Five -->
+        <!--
 							<section id="five">
 								<div class="container">
 									<h3>Elements</h3>
@@ -452,28 +516,23 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 								</div>
 							</section>
-						-->
+						--></div>
 
-					</div>
+      <!-- Footer -->
+      <section id="footer">
+        <div class="container">
+          <ul class="copyright"></ul>
+        </div>
+      </section>
+    </div>
 
-				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-							</ul>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
